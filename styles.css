@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+
+
+
+
+.home img {
+    float: left;
+    margin-right: 3rem;
+    width: 112px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: dimgray;
+    padding: 4rem;
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+}
