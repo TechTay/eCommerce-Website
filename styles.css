@@ -12,20 +12,96 @@ html {
 }
 
 
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+
+header {
+    background-color: white;
+    position: relative;
+    padding: 1.5rem;
+    margin:  3rem auto;
+    width: 90%;
+
+}
 
 
 
 
-.home img {
-    float: left;
-    margin-right: 3rem;
-    width: 112px;
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav li {
+    padding: none;
+    display: inline;
+    margin-right: 1.5rem;
+}
+
+
+nav img {
+    justify-content: none;
+    margin: auto;
+    width: 14px;
+}
+
+
+
+
+
+
+.search {
+    justify-content:right;
+
+}
+
+.earl {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0%;
+    border: 0cm;
+
+}
+
+
+main {
+    margin:  1rem auto;
+    width: 80%;
+    ;
+}
+
+
+
+
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo img {
+    height: 40px;
+    width: 40px;
 }
 
 
 footer {
     text-align: center;
-    background-color: dimgray;
+    background-color: RGB(191,118,49);
     padding: 4rem;
     position: fixed;
     width: 100%;
