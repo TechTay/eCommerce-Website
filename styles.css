@@ -25,7 +25,7 @@ header {
     position: relative;
     padding: 1.5rem;
     margin:  3rem auto;
-    width: 90%;
+    width: 50%;
 
 }
 
@@ -63,28 +63,40 @@ nav img {
 
 }
 
-.earl {
+.earl img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    padding: 0%;
-    border: 0cm;
+    width: 810px;
+   
 
 }
 
 
 main {
-    margin:  1rem auto;
-    width: 80%;
-    ;
+    margin:  auto;
+    width: 50%;
+    text-align: center;
+    
 }
 
 
+.bar1 {
+    padding: 1rem;
+    border: 15% solid black;
+}
 
 
+.space {
+    padding: 1rem;
+}
 
 
+.about {
+    padding: 1rem;
+    border: 15% solid black;
+   
+}
 
 .logo {
     display: flex;
@@ -99,10 +111,43 @@ main {
 }
 
 
+
+.vase {
+    display: block;
+    
+    margin-right: auto;
+    width: 150px;
+}
+
+
+.cylinder {
+    display: inline block;
+    margin-left: auto;
+    width: 210px;
+    position: absolute;
+  top: 62%;
+  right: 25%;
+  
+  
+  
+}
+
+
+.row {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+
 footer {
     text-align: center;
     background-color: RGB(191,118,49);
-    padding: 4rem;
+    padding: 2rem;
     position: fixed;
     width: 100%;
     left: 0%;
