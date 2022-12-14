@@ -1,155 +1,26 @@
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+
+.product_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 70px;
 }
 
-html {
-    box-sizing: border-box;
-    font-size: 62.5%;
+.product_image {
+    width: 275px;
+    height: 240px;
 }
 
-
-body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: white;
-    color: black;
-    margin: 0;
-}
-
-
-header {
-    background-color: white;
-    position: relative;
-    padding: 1.5rem;
-    margin:  3rem auto;
-    width: 50%;
-
-}
-
-
-
-
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-nav li {
-    padding: none;
-    display: inline;
-    margin-right: 1.5rem;
-}
-
-
-nav img {
-    justify-content: none;
-    margin: auto;
-    width: 14px;
-}
-
-
-
-
-
-
-.search {
-    justify-content:right;
-
-}
-
-.earl img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 810px;
-   
-
-}
-
-
-main {
-    margin:  auto;
-    width: 50%;
-    text-align: center;
+.hr_product {
+    align-content: left;
+    width: 30%;
+    border: 2px solid black;
     
 }
 
-
-.bar1 {
-    padding: 1rem;
-    border: 15% solid black;
-}
-
-
-.space {
-    padding: 1rem;
-}
-
-
-.about {
-    padding: 1rem;
-    border: 15% solid black;
-   
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.logo img {
-    height: 40px;
-    width: 40px;
-}
-
-
-
-.vase {
-    display: block;
-    
-    margin-right: auto;
-    width: 150px;
-}
-
-
-.cylinder {
-    display: inline block;
-    margin-left: auto;
-    width: 210px;
-    position: absolute;
-  top: 62%;
-  right: 25%;
-  
-  
-  
-}
-
-
-.row {
-    padding: 2rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-
-
-
-
-footer {
-    text-align: center;
-    background-color: RGB(191,118,49);
-    padding: 2rem;
-    position: fixed;
-    width: 100%;
-    left: 0%;
-    bottom: 0%;
+.add_to_cart_button {
+    background-color: #bf7631;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
 }
