@@ -35,55 +35,60 @@ header {
     width: 100%;
 }
 
+
+
+
 /* ABOUT US */
 
 .about_size {
     padding-top: 5rem;
     padding-bottom: .5rem;
-    margin-left: 10rem;
+    margin-left: 12rem;
 }
 
 .about_bar {
     border: 1px solid black;
     width: 51.5%;
-    margin-left: 10rem;
-}
-
-.about p {
-    padding: 0.7rem;
-}
-
-.para1 {
     margin-left: 12rem;
-    padding: 1.5rem;
+}
+
+
+.para3 {
     position: absolute;
+    left: 9%;
     right: 40%;
+    padding: 2.5rem;
+    
 }
 
 .para2 {
-    margin-left: 50rem;
-    padding: .5rem;
-    position: absolute;
-    right: 50%;
-    top: 120%;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .cylinder {
-    padding: 1.5rem;
-    width: 20%;
-    position: absolute;
-    right: 3%;
-    top: 113%;
+    grid-column-start: -1;
+   
 }
 
-.vase {
-    padding: .5rem;
-    width: 20%;
-    width: 275px;
-    position: inherit;
-    left: 3%;
-    height: 40%;
+.cylinder img {
+    width: 350px;
+    
 }
+
+.vase img {
+    width: 275px;
+}
+
+.about_container  {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 25% 25%;
+    gap: 30px;
+    padding: 12rem;
+    
+}
+
 
 /* MAIN */
 .from {
@@ -175,11 +180,19 @@ nav li {
     
 }
 
+.learn {
+    background-color: #bf7631;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
 .add_to_cart_button {
     background-color: #bf7631;
     color: white;
     font-weight: bold;
     font-size: 12px;
+    
 }
 
 .home {
