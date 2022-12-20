@@ -89,12 +89,15 @@
 }
 
 .cylinder img {
+    margin-left: -65%;
+    margin-top: -10%;
     width: 350px;
     
 }
 
 .vase img {
     width: 275px;
+    height: 430px;
 }
 
 .about_container  {
