@@ -241,6 +241,7 @@ header {
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
     height: 800px;
+    margin: .2%;
 }
 
 /* FOOTER */
@@ -272,7 +273,7 @@ h3.center {
 }
 
 .cara_logo img {
-    width: 44px;
+    width: 46px;
 }
 
 img.fb {
