@@ -1,41 +1,58 @@
-.cara_logo img {
-    width: 40px;
-    left: 14rem;
+/* CONTACT US */
+
+.contact {
+    height: 500px;
 }
 
-footer {
-    text-align: center;
-    background-color: dimgray;
-    background-color: RGB(191,118,49);
-    padding: 1.5rem;
-    position: fixed;
-    width: 100%;
-    left: 0%;
-    bottom: 0%;
+.message_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 45px;
+    row-gap: 20px;
+    padding-top: .2rem;
+    padding-bottom: 1.5rem;
+    margin-left: 19rem;
 }
 
-
-* *,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
- html {
-    box-sizing: border-box;
-    font-size: 12px;
+ .message {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 45px;
+    row-gap: 20px;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    margin-left: 19rem;
 }
 
-
-header {
-    position: relative;
-    padding: 1rem;
-    margin:  1rem auto;
-    width: 100%;
+.mail {
+    position: absolute;
+    left: 12%;
+    right: 40%;
+    padding: 2.5rem;
 }
 
+.email {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 45px;
+    row-gap: 20px;
+    padding-top: 5rem;
+    padding-bottom: .5rem;
+    margin-left: 19rem;
+}
 
+.contact_size {
+    padding-top: 5rem;
+    padding-bottom: .5rem;
+    margin-left: 12rem;
+}
+
+.contact_line {
+    border: 1px solid black;
+    width: 51.5%;
+    margin-left: 12rem;
+    
+}
 
 
 /* ABOUT US */
@@ -159,13 +176,38 @@ nav li {
     
 }
 
+/* HEADER */
+
+header {
+    position: relative;
+    padding: 1rem;
+    margin:  1rem auto;
+    width: 100%;
+}
+
+
 /* OUR PRODUCTS */
+
+.o_p {
+    padding-top: 5rem;
+    padding-bottom: .5rem;
+    margin-left: 12rem;
+}
+
+.product_line {
+    border: 1px solid black;
+    width: 51.5%;
+    margin-left: 12rem;
+}
 
 .product_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 45px;
     row-gap: 50px;
+    padding-top: 5rem;
+    padding-bottom: .5rem;
+    margin-left: 12rem;
 }
 
 .product_image {
@@ -180,12 +222,6 @@ nav li {
     
 }
 
-.learn {
-    background-color: #bf7631;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-}
 
 .add_to_cart_button {
     background-color: #bf7631;
@@ -202,4 +238,85 @@ nav li {
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
     height: 800px;
+}
+
+/* FOOTER */
+
+.sentence1 {
+    position: absolute;
+    right: 30%;
+    font-size: 10px;
+    bottom: 2%;
+}
+
+.sentence {
+    position: absolute;
+    left: 33%;
+    font-size: 10px;
+    bottom: 2%;
+}
+
+.copyright {
+    position: absolute;
+    right: 2%;
+    font-size: 10px;
+    bottom: 2%;
+}
+
+h3.center {
+   margin-left: 7%;
+   margin-right: 7%;
+}
+
+.cara_logo img {
+    width: 44px;
+}
+
+img.fb {
+    margin-left: .7%;
+}
+
+img.tweet {
+    margin-right: .7%;
+}
+.cara_logo {
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    
+    
+}
+
+.send_button {
+    background-color: #bf7631;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 73rem;
+    padding: 0.2rem;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: dimgray;
+    background-color: RGB(191,118,49);
+    padding: .5rem;
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+}
+
+* *,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+ html {
+    box-sizing: border-box;
+    font-size: 12px;
 }
